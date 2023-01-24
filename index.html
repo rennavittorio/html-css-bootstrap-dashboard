@@ -77,8 +77,48 @@
 
     <main class="main">
         
-        <section class="sidebar">
-            sidebar
+        <section class="sidebar h-100">
+            <div class="container-fluid py-3 h-100">
+                <div class="row h-100">
+                    <div class="col h-100">
+                        <div class="list-group h-100 justify-content-center" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active d-flex align-items-center justify-content-center justify-content-lg-start" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                                <i class="fa-solid fa-house me-lg-2 d-block sidebar__icon"></i>
+                                <span class="d-none d-lg-block">
+                                    Home
+                                </span>
+                            </a>
+                            <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-center justify-content-lg-start" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
+                                <i class="fa-solid fa-chart-simple me-lg-2 d-block sidebar__icon"></i>
+                                <span class="d-none d-lg-block">
+                                    Stats
+                                </span>
+                            </a>
+                            <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-center justify-content-lg-start" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                                <i class="fa-solid fa-signal me-lg-2 d-block sidebar__icon"></i>
+                                <span class="d-none d-lg-block">
+                                    Signal
+                                </span>
+                            </a>
+                            <a class="list-group-item list-group-item-action mt-auto d-flex align-items-center justify-content-center justify-content-lg-start" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+                                <i class="fa-solid fa-gear me-lg-2 d-block sidebar__icon"></i>
+                                <span class="d-none d-lg-block">
+                                    Admin
+                                </span>
+                            </a>
+                        </div>
+                        <!-- <div class="list-group h-100">
+                            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                              Home
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">Stats<a>
+                            <a href="#" class="list-group-item list-group-item-action">Signal</a>
+                            <a href="#" class="list-group-item list-group-item-action mt-auto">Admin</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <section class="dashboard">

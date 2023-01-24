@@ -1,6 +1,6 @@
 .debug .header,
 .debug .main {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* padding: 20px; */
 }
 
@@ -24,7 +24,7 @@ img {
 }
 
 .main {
-    background-color: lightgreen;
+    background-color: #051E34;
 
     flex-grow: 1;
 
@@ -32,7 +32,7 @@ img {
 }
 
 .sidebar {
-    background-color: lightpink;
+    background-image: url(../img/assets/sidebar-bg.png);
 
     width: 67px;
 }
@@ -49,6 +49,23 @@ img {
     width: 37px;
     aspect-ratio: 1;
 }
+
+.sidebar .list-group {
+    border-radius: 0;
+}
+
+.sidebar .list-group-item {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+.sidebar .list-group-item.active {
+    background-color: rgba(255, 255, 255, .25);
+}
+
+
+
 
 /* responsive */
 /* // Small devices (landscape phones, 576px and up) */
