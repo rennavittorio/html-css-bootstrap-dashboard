@@ -4,6 +4,10 @@
     /* padding: 20px; */
 }
 
+img {
+    max-width: 100%;
+}
+
 /* macro-layout */
 .body {
     width: 100%;
@@ -27,7 +31,7 @@
     display: flex;
 }
 
-.navbar {
+.sidebar {
     background-color: lightpink;
 
     width: 67px;
@@ -41,7 +45,10 @@
 }
 
 
-
+.mobile-logo {
+    width: 37px;
+    aspect-ratio: 1;
+}
 
 /* responsive */
 /* // Small devices (landscape phones, 576px and up) */
@@ -59,7 +66,7 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-    .navbar { 
+    .sidebar { 
         width: 150px;
     }
 
