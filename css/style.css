@@ -3,7 +3,7 @@
 .debug [class^="container"],
 .debug .row,
 .debug [class^="col"] {
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
 }
 
 img {
@@ -93,6 +93,10 @@ img {
     color: white;
 }
 
+.dashboard .offcanvas {
+    width: 100%;
+}
+
 /* responsive */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -111,6 +115,10 @@ img {
 
     .sidebar { 
         width: 150px;
+    }
+
+    .dashboard .offcanvas {
+        width: 800px;
     }
 
 }

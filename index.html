@@ -132,7 +132,7 @@
         <section class="dashboard">
             <div class="container-fluid recap">
                 <div class="row row-cols-1 row-cols-md-3">
-                    <div class="col col-lg-6">
+                    <div class="col col-lg-5">
                         <h6>
                             <span class="recap__title fs-1">
                                 Boolean
@@ -158,25 +158,121 @@
                         </h6>
                     </div>
                     <div class="col col-lg-4">
-                        <h6>
+                        <h6> 
                             Studenti online
                         </h6>
                         <h6 class="fs-1">
                             125
                         </h6>
                     </div>
-                    <div class="col col-lg-2">
+                    <div class="col col-lg-3 order-first order-md-last">
                         <span class="me-3">
                             Nuovo studente
                         </span>
                         <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">+</button>
                         <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                                    Inserisci un nuovo studente
+                                </h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                                <p>Try scrolling the rest of the page to see this option in action.</p>
+                                
+                                <form class="row g-3">
+
+
+                                    <div class="col-6">
+                                        <label for="first-name" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" aria-label="First name" id="first-name" required>
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="last-name" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" aria-label="Last name" id="last-name" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <!-- <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4"> -->
+
+                                        <label for="validationCustomUsername" class="form-label">Email</label>
+                                        <div class="input-group has-validation">
+                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                            <div class="invalid-feedback">
+                                                Please choose a correct mail.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <!-- <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4"> -->
+
+                                        <label for="validationCustomUsername" class="form-label">Conferma email</label>
+                                        <div class="input-group has-validation">
+                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                            <div class="invalid-feedback">
+                                                Please choose a correct mail.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Conferma password</label>
+                                        <input type="password" class="form-control" id="inputPassword4" required>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <label for="inputCity" class="form-label">Città</label>
+                                        <select class="form-select" id="inputCity">
+                                            <option selected>Milano</option>
+                                            <option>-</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label for="inputState" class="form-label">Stato</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Italia</option>
+                                            <option>-</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">CAP</label>
+                                        <input type="number" maxlength="5" class="form-control" id="inputZip">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="formFile" class="form-label">Foto</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+
+
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Seleziona per proseguire
+                                            </label>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                        <button type="submit" class="btn btn-warning">Svuota</button>
+                                    </div>
+                                  </form>
+
                             </div>
                         </div>
                     </div>
