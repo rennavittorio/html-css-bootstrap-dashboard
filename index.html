@@ -82,26 +82,34 @@
                 <div class="row h-100">
                     <div class="col h-100">
                         <div class="list-group h-100 justify-content-center" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active d-flex align-items-center justify-content-center justify-content-lg-start" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
-                                <i class="fa-solid fa-house me-lg-2 d-block sidebar__icon"></i>
+                            <a class="list-group-item list-group-item-action active d-flex align-items-center justify-content-center" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                                <span class="d-block me-lg-2 sidebar__icon">
+                                    <i class="fa-solid fa-house"></i>
+                                </span>
                                 <span class="d-none d-lg-block">
                                     Home
                                 </span>
                             </a>
-                            <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-center justify-content-lg-start" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
-                                <i class="fa-solid fa-chart-simple me-lg-2 d-block sidebar__icon"></i>
+                            <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-center" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
+                                <span class="d-block me-lg-2 sidebar__icon">
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                </span>
                                 <span class="d-none d-lg-block">
                                     Stats
                                 </span>
                             </a>
-                            <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-center justify-content-lg-start" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
-                                <i class="fa-solid fa-signal me-lg-2 d-block sidebar__icon"></i>
+                            <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-center" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                                <span class="d-block me-lg-2 sidebar__icon">
+                                    <i class="fa-solid fa-signal me-lg-2 sidebar__icon"></i>
+                                </span>
                                 <span class="d-none d-lg-block">
                                     Signal
                                 </span>
                             </a>
-                            <a class="list-group-item list-group-item-action mt-auto d-flex align-items-center justify-content-center justify-content-lg-start" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
-                                <i class="fa-solid fa-gear me-lg-2 d-block sidebar__icon"></i>
+                            <a class="list-group-item list-group-item-action mt-auto d-flex align-items-center justify-content-center" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+                                <span class="d-block me-lg-2 sidebar__icon">
+                                    <i class="fa-solid fa-gear me-lg-2 sidebar__icon"></i>
+                                </span>
                                 <span class="d-none d-lg-block">
                                     Admin
                                 </span>
@@ -122,7 +130,22 @@
         </section>
 
         <section class="dashboard">
-            dashboard
+            <div class="container-fluid recap">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col col-lg-6">
+                        Boolean
+                    </div>
+                    <div class="col col-lg-4">
+                        Studenti online
+                    </div>
+                    <div class="col col-lg-2">
+                        New
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid details">
+                dashboard
+            </div>
         </section>
 
 

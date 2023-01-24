@@ -1,7 +1,9 @@
-.debug .header,
-.debug .main {
-    /* border: 2px solid black; */
-    /* padding: 20px; */
+
+
+.debug [class^="container"],
+.debug .row,
+.debug [class^="col"] {
+    border: 2px solid navy;
 }
 
 img {
@@ -31,6 +33,9 @@ img {
     display: flex;
 }
 
+
+/* main */
+/* sidebar */
 .sidebar {
     background-image: url(../img/assets/sidebar-bg.png);
 
@@ -64,8 +69,24 @@ img {
     background-color: rgba(255, 255, 255, .25);
 }
 
+.sidebar__icon {
+    font-size: 1.5rem;
+    width: 30px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+/* .dashboard */
+/* recap */
+
+.recap {
+    background-color: #1B72E8;
+    color: white;
+    padding: 20px 0;
+}
 
 /* responsive */
 /* // Small devices (landscape phones, 576px and up) */
