@@ -3,7 +3,7 @@
 .debug [class^="container"],
 .debug .row,
 .debug [class^="col"] {
-    /* border: 2px solid navy; */
+    border: 2px solid navy;
 }
 
 img {
@@ -95,6 +95,11 @@ img {
 
 .dashboard .offcanvas {
     width: 100%;
+}
+
+/* details */
+.class__img img {
+    width: 30px;
 }
 
 /* responsive */
