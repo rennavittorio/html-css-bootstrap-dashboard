@@ -1,10 +1,10 @@
 
 
-.debug [class^="container"],
+/* .debug [class^="container"],
 .debug .row,
 .debug [class^="col"] {
     border: 2px solid navy;
-}
+} */
 
 img {
     max-width: 100%;
