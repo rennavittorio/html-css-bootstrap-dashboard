@@ -88,6 +88,11 @@ img {
     padding: 20px 0;
 }
 
+.recap .badge {
+    background-color: #051E34;
+    color: white;
+}
+
 /* responsive */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
