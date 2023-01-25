@@ -112,6 +112,134 @@ img {
     font-size: 1.5rem;
 }
 
+
+
+/*************************************************** 
+***********************bonus*************************
+*******************dark mode app*********************
+*****************************************************/
+
+/* navbar */
+body.dark {
+    background-color: #333;
+    color: #eee;
+}
+
+
+.dark .header .navbar {
+    background-color: #111 !important;
+    color: #eee;
+}
+
+.dark .form-control,
+.dark .dropdown-menu,
+.dark select {
+    /* --bs-btn-font-weight: 600; */
+    color: #eee;
+    background-color: #333;
+    border-color: #333;
+    /* --bs-btn-border-radius: .5rem; */
+    /* --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)}; */
+}
+
+.dark .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #666;
+    opacity: 1; /* Firefox */
+}
+  
+.dark .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #666;
+}
+  
+.dark .form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #666;
+}
+
+.dark .nav-item a:not(.active) {
+    color: #eee !important;
+}
+
+
+/* sidebar */
+.dark .sidebar {
+    background-color: #111;
+}
+
+/* dashboard */
+/* recap */
+.dark .recap {
+    background-color: #444;
+}
+
+.dark .recap .badge {
+    background-color: #222;
+}
+
+.dark .offcanvas {
+    color: #eee;
+    background-color: #444;
+    border-color: #444;
+}
+
+.dark .offcanvas .input-group-text {
+    background-color: #222;
+    border-color: #222;
+    color: #888;
+}
+
+.dark .offcanvas .btn-close {
+    color: #eee;
+    background-color: #eee;
+}
+
+/* details */
+.dark .details {
+    background-color: #666;
+    color: #eee;
+}
+
+.dark .details .card {
+    background-color: #333;
+    color: #eee;
+}
+
+.dark .details .card-body,
+.dark .details .card-body .accordion-button, 
+.dark .details .card-body .list-group-item {
+    background-color: #555;
+    border-color: #555;
+    color: #eee;
+}
+
+.dark .details .list-group-item {
+    background-color: #444;
+    border-color: #444;
+    color: #eee;
+}
+
+.dark .details .card-body .accordion-body {
+    background-color: #777;
+    color: #eee;
+}
+
+.dark .details .card-body .table {
+    /* background-color: #777; */
+    color: #eee;
+}
+
+.dark .details .card-body .table .btn {
+    background-color: #333;
+    border-color: #333;
+    color: #999;
+}
+
+
 /* responsive */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
