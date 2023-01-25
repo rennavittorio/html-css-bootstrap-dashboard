@@ -26,11 +26,13 @@ img {
 }
 
 .main {
-    background-color: #051E34;
+    /* background-color: #051E34; */
 
     flex-grow: 1;
 
     display: flex;
+
+    overflow-y: hidden;
 }
 
 
@@ -38,15 +40,18 @@ img {
 /* sidebar */
 .sidebar {
     background-image: url(../img/assets/sidebar-bg.png);
-
+    background-color: #051E34;
     width: 67px;
 }
 
 .dashboard {
-    background-color: lightgoldenrodyellow;
-
+    background-color: white;
     flex-grow: 1;
-    overflow-y: scroll;
+    overflow-y: auto;
+}
+
+.dashboard .details {
+    /* overflow-y: scroll; */
 }
 
 
