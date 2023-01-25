@@ -199,6 +199,7 @@ body.dark {
 }
 
 /* details */
+.dark .dashboard,
 .dark .details {
     background-color: #666;
     color: #eee;
