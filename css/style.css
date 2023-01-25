@@ -107,6 +107,11 @@ img {
     width: 30px;
 }
 
+.dashboard .card-header {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
 /* responsive */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
